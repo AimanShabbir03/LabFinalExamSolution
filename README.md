@@ -13,27 +13,27 @@ The principles which i used are given below:
 # Step 1: Create Separate Files
 For each class (Route, Schedule, Reservation, RouteFilter, etc.), create a separate .java file in the same package.
 Example:
-Route.java
-Schedule.java
-Reservation.java
-RouteFilter.java, etc.
+1. Route.java
+2. Schedule.java
+3. Reservation.java
+4. RouteFilter.java, etc.
 # Step 2: Define Each Class
 Each file should contain only one class.
 # Step 3: Update the Main Class
 In the SmartTravelSystem.java file, import all the classes at the top:
-import java.util.*;
+1. import java.util.*;
 Ensure that SmartTravelSystem remains unchanged, as all the required classes are now imported.
 # Step 4: File Structure
 The final structure will look like this:
-src/
-  SmartTravelSystem.java
-  Route.java
-  Schedule.java
-  Reservation.java
-  Filter.java
-  RouteFilter.java
-  ScheduleFilter.java
-  ReservationFilter.java
-  Pipe.java
-SmartTravelSystem.java is the main class, remaining are simple java classes and at the end by running SmartTravelSystem my code will be run. 
+-> src/
+  1. SmartTravelSystem.java
+  2. Route.java
+  3. Schedule.java
+  4. Reservation.java
+  5. Filter.java
+  6. RouteFilter.java
+  7. ScheduleFilter.java
+  8. ReservationFilter.java
+  9. Pipe.java
+-> SmartTravelSystem.java is the main class, remaining are simple java classes and at the end by running SmartTravelSystem my code will be run. 
 
